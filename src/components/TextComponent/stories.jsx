@@ -1,4 +1,4 @@
-import { TextComponent } from '.';
+import { TextComponent } from './index';
 
 export default {
   title: 'TextComponent',
