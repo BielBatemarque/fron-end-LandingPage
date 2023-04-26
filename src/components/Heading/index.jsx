@@ -6,7 +6,7 @@ export const Heading = ({ children, light = false, as = 'h1', size='huge', upper
     return <Styled.Title light={light} as={as} size={size} uppercase={uppercase}>
             {children}
            </Styled.Title>
-} 
+} ;
 
 Heading.propTypes ={
     children: P.node.isRequired,
